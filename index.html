@@ -1,1 +1,141 @@
-<p>test<p>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>Page Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+.header h2 {
+  font-size: 25px;
+}
+
+.ul {
+  display: block;
+  list-style-type: circle;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0px;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1000px;
+  padding: 20px;
+}
+
+
+/* Main column */
+.main {   
+  -ms-flex: 100%; /* IE10 */
+  flex: 100%;
+  background-color: white;
+  margin: auto;
+  max-width: 1000px;
+  padding: 20px;
+}
+
+/* 3-column layout */
+.column {
+  float: left;
+  width: 33%;
+padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Headerimage, example*/
+.headerimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add card*/
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+
+/* Footer */
+.footer {
+  padding: 8px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>MeKIDI</h1>
+  <h2>Menschengerechte KI-basierte Prozessdigitalisierung in der Energiewirtschaft</h2>
+</div>
+
+
+<div class="main">
+    <p>Weitere Informationen folgen.
+</div>
+
+
+<div class="footer">
+  <p style="font-size: 12px">Impressum | Datenschutzerklärung</p>
+</div>
+</body>
+</html>
