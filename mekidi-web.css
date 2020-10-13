@@ -60,7 +60,8 @@ body {
 .column {
   float: left;
   width: 33%;
-padding: 15px;
+  padding: 15px;
+  display: grid;
 }
 
 /* Clear floats after the columns */
