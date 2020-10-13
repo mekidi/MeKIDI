@@ -17,11 +17,22 @@ body {
 }
 
 /* Increase the font size of the heading */
+@media screen and (min-width: 601px){
 .header h1 {
-  font-size: 40px;
+  font-size: 4em;
 }
 .header h2 {
-  font-size: 25px;
+  font-size: 1em;
+}
+}
+
+@media screen and (max-width: 600px){
+.header h1 {
+  font-size: 3em;
+}
+.header h2 {
+  font-size: 0.8em;
+}
 }
 
 .ul {
