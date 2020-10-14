@@ -10,16 +10,19 @@ body {
 
 /* Header/logo Title */
 .header {
+  background-image: url("https://mekidi.github.io/MeKIDI-web/assets/header-mekidi-web-dark.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 80px;
   text-align: center;
-  background: #1abc9c;
   color: white;
+  height: 27em;
 }
 
 /* Increase the font size of the heading */
 @media screen and (min-width: 601px){
 .header h1 {
-  font-size: 4em;
+  font-size: 4.5em;
 }
 .header h2 {
   font-size: 1em;
@@ -115,6 +118,10 @@ body {
   padding: 8px;
   text-align: center;
   background: #ddd;
+  a:link{
+    color: #696969;
+    decoration: none;
+  }
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
